@@ -1,0 +1,27 @@
+<div class="container-fluid blue-background">
+    <div class="container contenido-login">
+      <div class="row">
+        <div class="col-sm-12">
+          <div class="logo-login">
+            <img src="assets/img/common/logo_fap.png" alt="FAP">
+          </div>
+          <h1>Iniciar sesión</h1>
+        </div>
+      </div>
+    </div>
+
+<form action="post" [formGroup]="loginForm">
+    <div class="mb-3">
+        <label for="email" class="form-label">Correo:</label>
+        <input type="email" formControlName="email" class="form-control" id="email">
+      </div>
+      <div class="mb-3">
+        <label for="password" class="form-label">Contraseña:</label>
+        <input type="password" formControlName="password" class="form-control" id="password">
+      </div>
+      <button (click)="_onLogin()" type="submit" class="boton-login">Iniciar sesión</button>
+</form>
+<div class="legal-login">
+  <p>¿No tienes una cuenta?. <a href="#">Regístrate aquí</a></p>
+</div>
+</div>

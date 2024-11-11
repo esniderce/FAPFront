@@ -1,0 +1,28 @@
+.blue-background{
+    background-color: #2388FF;
+    color: #ffffff;
+    height: 100vh;
+}
+
+.contenido-login{
+    display: flex;
+    justify-content: center;
+    padding-top: 60px;
+}
+
+.logo-login{display: block; width: 150px; height: auto; margin: 0 auto;}
+.logo-login img{width: 100%; height: auto;}
+.boton-login{
+    background-color: #A7A9AB;
+    border: none;
+    color: #ffffff;
+    display: block;
+    padding: 10px 30px;
+    border-radius: 3rem;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contenido-login h1{margin:30px 0; font-weight: 700;}
+.legal-login{text-align: center; font-size: 12px; position: fixed; bottom: 0; width: 100%;}
+.legal-login a{font-weight: 700; color: #ffffff;}

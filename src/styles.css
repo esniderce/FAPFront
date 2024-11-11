@@ -1,0 +1,29 @@
+/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+body{
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+/* Formularios */
+
+.form-control{
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 30px!important;
+}
+
+.titular{
+    color: #4C74FF;
+    padding: 0 21px;
+    margin-top: 15px;
+}
+
+.titular h1{
+    color: #4C74FF;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+}
